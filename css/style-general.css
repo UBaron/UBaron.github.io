@@ -1,0 +1,37 @@
+body, html {
+    height: 125%;
+    width:  40%;
+    }
+    
+    body {
+        color : white;
+        background-color: rgb(17, 20, 24);
+
+    }
+    nav {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+    }
+    
+    .twitterlink {
+        position: relative; 
+        left: 700px;
+        top: 40px;
+        color: rgb(17, 20, 24);
+    }
+
+    .instalink {
+        position: relative;
+        left: 900px;
+        top: 40px;
+        color: rgb(17, 20, 24);
+    }
+
+    .maillink {
+        position: relative;
+        left: 720px;
+        top: 45px;
+    }
+
+
+
