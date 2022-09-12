@@ -1,5 +1,4 @@
 body, html {
-    height: 105%;
     }
     
     body {
@@ -9,4 +8,25 @@ body, html {
     nav {
         font-family: Arial, Helvetica, sans-serif;
         color: blue;
+    }
+
+    .planeimg {
+        position: relative;
+        left: 850px;
+        top: 140px;
+        border-radius: 50%;
+    }
+
+    .profiletitle {
+        position: relative;
+        left: 880px;
+        top: 100px;
+        font-size: 40;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .textprofile {
+        position: relative;
+        left: 860;
+        top: 200px;
     }
