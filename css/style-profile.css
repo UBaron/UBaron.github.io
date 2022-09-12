@@ -27,6 +27,12 @@ body, html {
 
     .textprofile {
         position: relative;
-        left: 860;
-        top: 200px;
+        left: 860px;
+        top: 10px;
+    }
+
+    .zeelandimg {
+        position: relative;
+        left: 1150px;
+        top: 190px;
     }
