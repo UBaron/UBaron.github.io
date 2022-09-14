@@ -241,8 +241,8 @@ margin: 0;
 
 .togButton5 {
     position: relative;
-    left: 500px;
-    top: 250px;
+    left: 830px;
+    top: 230px;
     display: block;
     border: 3px solid white;
     width: 550px;
@@ -254,8 +254,8 @@ margin: 0;
 
 .togContent5 {
     position: relative;
-    left: 500px;
-    top: 229px;
+    left: 830px;
+    top: 209px;
     max-height: 0;
     opacity: 0;
     width: 570px;
@@ -280,4 +280,11 @@ border-style: dashed;
 .togContent5 p {
 padding: 50px 10px;
 margin: 0;
+}
+
+.blogtitle {
+  position: relative;
+  top: 100px;
+  left: 1050px;
+  font-size: 40 ;
 }
