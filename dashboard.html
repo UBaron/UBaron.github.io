@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF8">
     <link rel="stylesheet" href="css/style-general.css">
-    <link rel="stylesheet" href="css/style-blog.css">
-    <title>Blog</title>
+    <link rel="stylesheet" href="css/style-dashboard.css">
+    <title>Dashboard</title>
   </head>
 
   <body>
@@ -40,99 +40,119 @@
     </header>
 
     <Main>
+      <h1 class="dashtitle">Dashboard</h1>
+      <div>
+        <table class="tabel">
+          <tr>
+            <th>Blok </th>
+            <th>Cursus</th>
+            <th>EC</th>
+            <th>Toets</th>
+            <th>Cijfer</th>
+          </tr>
+          <tr>
+            <td rowspan="3">1</td>
+            <td>1e cursus</td>
+            </td>
+            <td>5</td>
+            <td>Geschreven Tentamen</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td rowspan="2"> 2e curses</th>
+            <td>5</th>
+            <td>Geschreven Tentamen</th>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td>2,5</td>
+            <td>assesment</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Object Oriented Programming</td>
+            <td rowspan="2">10</td>
+            <td>Case Study (50%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td>Project (50%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td rowspan="4">3</td>
+            <td>Framework Development 1</td>
+            <td> 5</td>
+            <td>Case study</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Framework Project 1</td>
+            <td rowspan="3">7,5</td>
+            <td>Project (33%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td>Study (33%)</td>
+            <td class="TBA">TBA</td>>
+          </tr>
+          <tr>
+            <td>Report (33%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td rowspan="4">4</td>
+            <td rowspan="4">Framework Prokect 2</td>
+            <td rowspan="4">10</td>
+            <td>portofolio (50%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td>Project (25%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+          <tr>
+            <td>Assesment (25%)</td>
+            <td class="TBA">TBA</td>
+          </tr>
+        </table>
+
+        <table class="cijfers">
+          <tr>
+            <th class="onvoldoende">Onvoldoende</th>
+            <th class="nietgdn">Nog niet gedaan</th>
+            <th class="voldoende">Voldoende</th>
+          </tr>
+        </table>
+      </div>
 
 
-
-
-        <h2 class="BlogTitle">Blog</h2>
-
-            <div>
-        <label for="check1" class="togButton1">
-          <h3 class="choicehead">Waarom heb ik voor ICT gekozen?</h3>
-        </label>
-        <input type="checkbox" class="togCheck1" id="check1" />
-        <div class="togContent1">
-          <p class="choicetext">Momenteel is er veel vraag naar ICT'ers, zo weet ik dat ik
-            na het behalen van mijn diploma snel aan de slag kan! Ook is het inkomen van een ICT'er
-            best hoog, en dat maakt het nog beter! Maar het belangrijkste voor mij is, is dat ik
-            het met plezier ga doen. En op het moment heb ik het echt naar mijn zin! Na het behalen
-            van mijn diploma, wil ik mij gaan specialiseren als Ethisch Hacker. Daarvoor moet je een
-            diploma ICT voor hebben.
-          </p>
-        </div>
+      <div>
+        <h2 class="ptitle">Mijn EC progressie:</h2>
+        <label class="plabel" for="progressbar">0/60 EC</label>
+        <progress class="pbar" id="progressbar" value="1" max="60"> 0%</progress>
       </div>
 
       <div>
-        <label for="check2" class="togButton2">
-          <h3 class="swothead">Mijn persoonlijke SWOT analyse.</h3>
-        </label>
-        <input type="checkbox" class="togCheck2" id="check2" />
-        <div class="togContent2">
-          <p>
-          <ol class="swottext">
-            <li>Strengths:
-              <ul>
-                <li>Doorzettingsvermogen (haal altijd wel het beste uit mezelf</li>
-                <li>Concentratie: Kan in 1 stuk door voor een lange tijd werken, zonder afgeleid te worden. </li>
-                <li>Georganiseerd: Ik probeer altijd zo georganiseerd mogelijk te werken, om stress en fouten te
-                  vermijden.</li>
-              </ul>
-            </li>
-            <li>Weaknesses: Meer zelfverzekerd zijn over wat ik doe, soms vraag ik om bevestiging. Maar achteraf blijkt
-              het dat het niet nodig was.</li>
-            <li>Opportunities: Door een stage/project een goede werkgever kan gaan vinden.</li>
-            <li>Threats: Deadlines niet halen omdat je in een groep moet werken. Wanneer andere hun zaken niet op orde
-              hebben, gaat dat invloed hebben op het resultaat.</li>
-          </ol>
-          </p>
-        </div>
+        <h2 class="nbsatitle"> NBSA Boundary</h2>
+        <h4 class="nbsatext"> Je moet minimaal 45 studiepunten behalen om verder te mogen gaan met de studie.</h4>
       </div>
 
       <div>
-        <label for="check3" class="togButton3">
-          <h3 class="prohead">Heb ik ervaring met programmeren?</h3>
-        </label>
-        <input type="checkbox" class="togCheck3" id="check3" />
-        <div class="togContent3">
-          <p class="protext">Dit is de eerste keer dat ik iets met HTML en CSS doe.
-            2 weken geleden is het de eerste keer dat ik het ooit had gezien/gebruikt.
-            Maar ik vind het oprecht super leuk en interessant om te doen.
-            Het meest interessantste vind ik dat je letterlijk alles kan maken wat je wilt!</p>
-        </div>
+        <h2 class="extraec"> Extra studiepunten! </h2>
+        <h3 class="ectext">In totaal kun je nog 15 "extra" studiepunten behalen, 2,5 EC en 12,5.
+          De 2,5 (1,25 EC Q1 en 1,25 EC Q2) kun je behalen door goed mee te doen,
+          de 12,5 kun je behalen om een goede portofolio in te leveren van het gehele jaar!
+        </h3>
       </div>
 
-      <div>
-        <label for="check4" class="togButton4">
-          <h3 class="feedhead">Mijn feedback op mijn SKC.</h3>
-        </label>
-        <input type="checkbox" class="togCheck4" id="check4" />
-        <div class="togContent4">
-          <p class="feedtext"> Mevrouw Weertjes had een positieve feedback op mijn SWOT,
-            zo vond ze het goed dat ik de risico's herkende van het werken in een groep. Ook vond
-            ze het interessant dat ik wilde gaan doen met Cyber Security, ze legde toen ook uit
-            dat we "Cyber Security" pas in het tweede jaar kregen. Ook gaf ze de tip me om veel
-            feedback te vragen! Zo leer ik het meeste en een ontwikkelingspunt van deze opleiding!
-            Zelf ben ik blij met de feedback die mevrouw Weertjes heeft gegeven!
-          </p>
-        </div>
-      </div>
-
-      <div>
-        <label for="check5" class="togButton5">
-          <h3 class="arthead">Hier een Artikel over Cyber Security!</h3>
-        </label>
-        <input type="checkbox" class="togCheck5" id="check5" />
-        <div class="togContent5">
-          <p class="arttext">Klik <a class="artlink"
-              href="https://www.compact.nl/articles/cyber-security-een-onderwerp-voor-aan-de-bestuurstafel/">hier</a>
-            voor een artikel over Cyber Security!</p>
-        </div>
-      </div>
 
     </Main>
   </body>
 
   </html>
+
 
 
   <Directhost "C:/Users/baron/Desktop/GIT PULL" <Directory "C:/Users/baron/Desktop/GIT PULL"
