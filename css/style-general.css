@@ -71,7 +71,7 @@ body, html {
         position: relative;
         top: 190px;
         left: 25px;
-     }
+    }
 
    .githublink {
     position: absolute;
@@ -81,4 +81,8 @@ body, html {
     left: 1106px;
     color: white;
     padding: 15px 20px;
-}
+   }
+
+   .active {
+    background-color: grey;
+   }
